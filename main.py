@@ -2,7 +2,7 @@ import os
 import streamlit as st
 import openai
 
-api_key = os.environ['API-KEY']
+api_key = st.secrets['API-KEY']
 openai.api_key = api_key
 
 org_key = os.environ['OPEN-AI-ORGANISATION']
