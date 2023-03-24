@@ -44,6 +44,7 @@ def prompt(input):
 # Title
 
 st.sidebar.title('WizCase Article Generator (Beta)')
+st.sidebar.title('---')
 
 # 00 - GLOBAL VARIABLES
 year_current = 2023
