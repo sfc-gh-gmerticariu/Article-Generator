@@ -136,10 +136,6 @@ Step 3 must be about the reader watching the content mentioned in the section ti
 """
 
 if(st.sidebar.button("Write for me", key=2)):
-  st.subheader(section_heading)
-  st.write("PROMPT:")
-  st.write(prompt_input)
-  st.write("OUTPUT:")
   st.write(prompt(prompt_input))
 
 # 03 - WHY VPN
@@ -152,16 +148,12 @@ Write 3 paragraphs about {section_heading}. \n
 
 Use the following text as a reference for language structure and tone:\n
 ### \n
-Even though NFL Game Pass Pro is available worldwide, you won’t be able to live stream any regular-season or post-season games with a US Game Pass — you’ll only be able to watch on-demand replays after the game. This is because regular-season games are licensed to networks like CBS, FOX, NBC, ESPN, and Amazon Prime Video. You’ll need subscriptions to multiple streaming platforms to catch every game, which adds up to hundreds of dollars per season.
-However, outside the US, UK, Canada, and Ireland, you can buy an international NFL Game Pass Pro with no restrictions. When you buy a Game Pass in countries like Brazil, India, Japan, Germany, and South Africa, you’ll have access to all pre-season, regular-season, and post-season NFL games live! You’ll also have access to extras like NFL RedZone and an entire library of on-demand NFL films and series.
+Even though NFL Game Pass Pro is available worldwide, you won’t be able to live stream any regular-season or post-season games with a US Game Pass — you’ll only be able to watch on-demand replays after the game. This is because regular-season games are licensed to networks like CBS, FOX, NBC, ESPN, and Amazon Prime Video. You’ll need subscriptions to multiple streaming platforms to catch every game, which adds up to hundreds of dollars per season.\n
+However, outside the US, UK, Canada, and Ireland, you can buy an international NFL Game Pass Pro with no restrictions. When you buy a Game Pass in countries like Brazil, India, Japan, Germany, and South Africa, you’ll have access to all pre-season, regular-season, and post-season NFL games live! You’ll also have access to extras like NFL RedZone and an entire library of on-demand NFL films and series.\n
 With the help of a VPN, you can spoof your location by connecting to a server in another country. When you connect to a server outside the US, you’ll be able to sign up for an NFL Game Pass Pro INTL and access every game live, including playoffs and the Super Bowl.
 """
 
 if(st.sidebar.button("Write for me", key=3)):
-  st.subheader(section_heading)
-  st.write("PROMPT:")
-  st.write(prompt_input)
-  st.write("OUTPUT:")
   st.write(prompt(prompt_input))
 
 
