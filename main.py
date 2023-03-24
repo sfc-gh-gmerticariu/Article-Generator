@@ -5,7 +5,7 @@ import openai
 api_key = st.secrets['API_KEY']
 openai.api_key = api_key
 
-org_key = os.environ['OPEN-AI-ORGANISATION']
+org_key = st.secrets['OPEN-AI-ORGANISATION']
 openai.organization = org_key
 
 # RETRIEVE OPENAI MODEL
